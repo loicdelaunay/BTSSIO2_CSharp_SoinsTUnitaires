@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoinsTUnitaires
 {
-    class Prestation
+    public class Prestation
     {
 
         private string libelle;
@@ -55,6 +55,5 @@ namespace SoinsTUnitaires
                 return -1;
             }
         }
-
     }
 }

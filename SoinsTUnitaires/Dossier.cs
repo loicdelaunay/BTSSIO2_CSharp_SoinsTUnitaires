@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoinsTUnitaires
 {
-    class Dossier
+    public class Dossier
     {
 
         private string nomPatient;

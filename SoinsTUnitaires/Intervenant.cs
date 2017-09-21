@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoinsTUnitaires
 {
-    class Intervenant
+    public class Intervenant
     {
 
         private string nom;
@@ -41,6 +41,11 @@ namespace SoinsTUnitaires
         public void ajoutePrestation(Prestation unePrestation)
         {
             lesPrestations.Add(unePrestation);
+        }
+
+        public int SommePourRien(int a, int b)
+        {
+            return a + b;
         }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SoinsTUnitaires
 {
-    class IntervenantExterne : Intervenant
+    public class IntervenantExterne : Intervenant
     {
-
+         
         private string specialite;
         private string adresse;
         private string tel;
